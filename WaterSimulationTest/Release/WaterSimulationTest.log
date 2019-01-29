@@ -1,0 +1,91 @@
+﻿Build started 11/21/2013 1:55:54 PM.
+     1>Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\WaterSimulationTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\WaterSimulationTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.lib" /MACHINE:X86 Release\FIELD_2D.obj
+         Release\FIELD_3D.obj
+         Release\glvu.obj
+         Release\HW1.obj
+         Release\PARTICLE.obj
+         Release\PARTICLE_SYSTEM.obj
+         Release\stdafx.obj
+         Release\WALL.obj
+         Release\WaterSimulationTest.obj
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glGetIntegerv@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glVertex3fv@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAddMenuEntry@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glGetBooleanv@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitWindowPosition@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutCreateWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutMotionFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAddSubMenu@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glPixelStorei@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glIsEnabled@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGetModifiers@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutSwapBuffers@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGetWindow@0
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutReshapeFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutGet@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glLoadMatrixf@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glReadPixels@28
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitDisplayMode@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glReadBuffer@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glPolygonMode@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glCullFace@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutSetWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutMouseFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutCreateMenu@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glLightModeli@8
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glViewport@16
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutKeyboardFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutAttachMenu@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutDestroyWindow@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutInitWindowSize@8
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutPostRedisplay@0
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutDisplayFunc@4
+     1>glvu.obj : error LNK2001: unresolved external symbol _glutTimerFunc@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+     1>HW1.obj : error LNK2001: unresolved external symbol _gluPerspective@32
+     1>HW1.obj : error LNK2001: unresolved external symbol _gluLookAt@72
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glColor4f@16
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLineWidth@4
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutInit@8
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutIdleFunc@4
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLightfv@12
+     1>HW1.obj : error LNK2001: unresolved external symbol _glutMainLoop@0
+     1>HW1.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glMaterialfv@12
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _glutSolidCone@24
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glTranslated@24
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluQuadricDrawStyle@8
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluNewQuadric@0
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _glutSolidSphere@16
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluQuadricNormals@8
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol _gluCylinder@36
+     1>PARTICLE.obj : error LNK2001: unresolved external symbol __imp__glFlush@0
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol __imp__glScaled@24
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol __imp__glColor3fv@4
+     1>PARTICLE_SYSTEM.obj : error LNK2001: unresolved external symbol _glutWireCube@8
+     1>WALL.obj : error LNK2001: unresolved external symbol _glutSolidCube@8
+     1>WALL.obj : error LNK2001: unresolved external symbol __imp__glScalef@12
+     1>C:\Users\Matt\Documents\GitHub\Water-Sand-Box\Release\WaterSimulationTest.exe : fatal error LNK1120: 69 unresolved externals
+     1>Done Building Project "C:\Users\Matt\Documents\GitHub\Water-Sand-Box\WaterSimulationTest\WaterSimulationTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28
